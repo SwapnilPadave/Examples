@@ -57,15 +57,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex26-Calculator", "Ex26-Cal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex27-ConstructorOverloading", "Ex27-ConstructorOverloading\Ex27-ConstructorOverloading.csproj", "{49BF8C04-1A3F-478B-BBAB-D67D55438803}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex28-DynamicTypes", "ConsoleApp1\Ex28-DynamicTypes.csproj", "{47647640-4CE1-48A1-A067-13104F7D0347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex28-DynamicTypes", "ConsoleApp1\Ex28-DynamicTypes.csproj", "{47647640-4CE1-48A1-A067-13104F7D0347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex29-OperatorOverloading", "Ex29-OperatorOverloading\Ex29-OperatorOverloading.csproj", "{3C446F6D-6A86-427C-AD35-577D49B2882A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex29-OperatorOverloading", "Ex29-OperatorOverloading\Ex29-OperatorOverloading.csproj", "{3C446F6D-6A86-427C-AD35-577D49B2882A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex30-Params", "Ex30-Params\Ex30-Params.csproj", "{6EB200E2-74FD-4CE6-931B-568C763B308E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex30-Params", "Ex30-Params\Ex30-Params.csproj", "{6EB200E2-74FD-4CE6-931B-568C763B308E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex31-NullableTypes", "Ex31-NullableTypes\Ex31-NullableTypes.csproj", "{1454B1BE-B0B7-43E4-BF79-855B6303AE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex31-NullableTypes", "Ex31-NullableTypes\Ex31-NullableTypes.csproj", "{1454B1BE-B0B7-43E4-BF79-855B6303AE39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex32-Tuple", "Ex32-Tuple\Ex32-Tuple.csproj", "{0053F9D7-14AE-4349-8F5D-37300FA057E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex32-Tuple", "Ex32-Tuple\Ex32-Tuple.csproj", "{0053F9D7-14AE-4349-8F5D-37300FA057E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex33-XOROperator", "Ex33-XOROperator\Ex33-XOROperator.csproj", "{090003F9-C33A-4FF2-B640-F35B1FC7D553}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex34-ForLoop", "Ex34-ForLoop\Ex34-ForLoop.csproj", "{D843C22E-0244-442E-B370-238D03EE2F9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,14 @@ Global
 		{0053F9D7-14AE-4349-8F5D-37300FA057E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0053F9D7-14AE-4349-8F5D-37300FA057E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0053F9D7-14AE-4349-8F5D-37300FA057E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090003F9-C33A-4FF2-B640-F35B1FC7D553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090003F9-C33A-4FF2-B640-F35B1FC7D553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090003F9-C33A-4FF2-B640-F35B1FC7D553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090003F9-C33A-4FF2-B640-F35B1FC7D553}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D843C22E-0244-442E-B370-238D03EE2F9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D843C22E-0244-442E-B370-238D03EE2F9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D843C22E-0244-442E-B370-238D03EE2F9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D843C22E-0244-442E-B370-238D03EE2F9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
