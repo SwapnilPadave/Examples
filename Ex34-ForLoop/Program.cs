@@ -13,11 +13,16 @@ namespace Ex34_ForLoop
             //    Console.WriteLine(x);
             //}
 
-            int x = 0;
-            for(int i = 0; i < 100; i++)
+            //int x = 0;
+            //for(int i = 0; i < 100; i++)
+            //{
+            //    x += i++;
+            //    Console.WriteLine(x);
+            //}
+
+            for(int i = 100; i >=1; i--)
             {
-                x += i++;
-                Console.WriteLine(x);
+                Console.WriteLine(i);
             }
         }
     }
