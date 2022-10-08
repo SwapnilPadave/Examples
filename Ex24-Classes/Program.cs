@@ -82,7 +82,4 @@ namespace Ex24_Classes
     //}
     #endregion
 
-
-
-
 }
