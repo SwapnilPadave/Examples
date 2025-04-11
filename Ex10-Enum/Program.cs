@@ -36,7 +36,13 @@ namespace Ex10_Enum
             {
                 Console.WriteLine(x);
             }
-            Console.ReadLine();
+
+            Console.WriteLine("---------");
+
+            var a = Month.Jully;
+            Console.WriteLine(a);
+
+            Console.ReadLine();            
         }
     }
 }

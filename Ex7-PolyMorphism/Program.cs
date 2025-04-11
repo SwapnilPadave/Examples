@@ -47,6 +47,17 @@ namespace Ex7_PolyMorphism
             Console.WriteLine(a-b);
         }
     }
+    public class D
+    {
+        public void add1(int a,int b)
+        {
+            Console.WriteLine(a+b);
+        }
+        public void add1(string a,string b)
+        {
+            Console.WriteLine(a+b);
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -63,6 +74,12 @@ namespace Ex7_PolyMorphism
             c.Add(5, 6);            
             c.Add("Swapnil", "Padave");
             c.Subtract(12, 7);
+
+            //Object of D
+            D d = new D();
+            d.add1(5, 6);
+            d.add1("swapnil", "padave");
+
 
             Console.ReadLine();
            
